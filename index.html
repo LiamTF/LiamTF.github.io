@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Liam Fitzmaurice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="liamfitzmaurice.com - A selection of projects by Liam Fitzmaurice.">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="author" content="Liam Fitzmaurice">
+    <meta property="og:title" content="Liam Fitzmaurice">
+    <meta property="og:url" content="https://liamfitzmaurice.com">
+    <meta property="og:type" content="blog">
+    <meta property="og:description" content="liamfitzmaurice.com - A selection of projects by Liam Fitzmaurice.">
+    <meta property="og:image" content="/assets/favicon/favicon-32x32.png">
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+</head>
+
+<body>
+
+    <header class="ms-box">
+        <div class="flex-1">
+            <input class="start-check" type="checkbox" id="start-check">
+            <label class="start ms-box" for="start-check" id="start-button">
+                <img src="/assets/images/icons/start-98.png" alt="Icon" class="ns np" width="32" height="32">
+                <span class="hamb-line" aria-hidden="true"></span>
+            </label>
+            <nav class="start-menu ms-box" id="start-menu">
+                <div class="start-menu-bar ns" aria-hidden="true">
+                    Liam <span>OS</span>
+                </div>
+                <div class="start-menu-links">
+                    <div>
+                        <button class="start-menu-item" id="start-contact">
+                            <img src="/assets/images/icons/mailbox-98.png" alt="Icon" class="ns np" width="32" height="32">
+                            <span>Contact</span>
+                        </button>
+                        <div class="start-border" aria-hidden="true"></div>
+                    </div>
+                    <div>
+                        <button class="start-menu-item" id="start-rewordo">
+                            <img src="/assets/images/icons/rewordo.png" alt="Icon" class="ns np" width="32" height="32">
+                            <span>Rewordo</span>
+                        </button>
+                        <button class="start-menu-item" id="start-rocketcat">
+                            <img src="/assets/images/icons/rocket-cat.png" alt="Icon" class="ns np" width="32" height="32">
+                            <span>Rocket Cat</span>
+                        </button>
+                        <button class="start-menu-item" id="start-udream">
+                            <img src="/assets/images/icons/udream.png" alt="Icon" class="ns np" width="32" height="32">
+                            <span>udream<wbr>.co.nz</span>
+                        </button>
+                        <button class="start-menu-item" id="start-ieqresearch">
+                            <img src="/assets/images/icons/ieqresearch.png" alt="Icon" class="ns np" width="32" height="32">
+                            <span>ieqresearch<wbr>.com</span>
+                        </button>
+                        <div class="start-border" aria-hidden="true"></div>
+                    </div>
+                    <footer>
+                        <span>Liam Fitzmaurice <span class="date"></span></span>
+                        <span>Windows 98 icons &#169; Microsoft</span>
+                    </footer>
+
+                </div>
+            </nav>
+        </div>
+        <div class="mini-border" aria-hidden="true"></div>
+        <div class="flex flex-2" id="mini-area">
+            <button class="mini-item" id="mini-contact">
+                <img src="/assets/images/icons/mailbox-98.png" alt="Icon" class="ns np" width="32" height="32">
+                <span>Contact</span>
+            </button>
+
+            <button class="mini-item" id="mini-rewordo">
+                <img src="/assets/images/icons/rewordo.png" alt="Icon" class="ns np" width="32" height="32">
+                <span>Rewordo</span>
+            </button>
+            <button class="mini-item" id="mini-rocketcat">
+                <img src="/assets/images/icons/rocket-cat.png" alt="Icon" class="ns np" width="32" height="32">
+                <span>Rocket Cat</span>
+            </button>
+            <button class="mini-item" id="mini-udream">
+                <img src="/assets/images/icons/udream.png" alt="Icon" class="ns np" width="32" height="32">
+                <span>udream<wbr>.co.nz</span>
+            </button>
+            <button class="mini-item" id="mini-ieqresearch">
+                <img src="/assets/images/icons/ieqresearch.png" alt="Icon" class="ns np" width="32" height="32">
+                <span>ieqresearch<wbr>.com</span>
+            </button>
+        </div>
+        <div class="flex flex-3">
+            <div class="time ms-box-inverse ns" id="time">
+                NZST&nbsp;<span id="clock"></span>
+            </div>
+            <div class="time ms-box-inverse ns" id="time-mobile" aria-hidden="true">
+                &#8987;
+            </div>
+            <div class="ms-box" id="clock-popup" aria-hidden="true">
+                NZST&nbsp;<span id="clockhover"></span>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="background">
+        <section class="about">
+            <img id="logo" class="ns main-logo" src="/assets/images/liam.png" alt="Liam Fitzmaurice" onerror="hideImage(this)"
+                width="301" height="301" aria-hidden="true">
+            <img id="logo-reverse" class="ns main-logo" src="/assets/images/liam-reverse.png" alt="Liam Fitzmaurice in reverse!" onerror="hideImage(this)"
+            width="301" height="301" aria-hidden="true" style="display:none;">
+            <div class="about-summary">
+                <h1>Liam Fitzmaurice</h1>
+                <br>
+                <p>
+                    I am currently a contract web developer (ITfitz Ltd.), based in Auckland, NZ,
+                        <br>
+                        and have recently completed a Postgraduate Diploma of Information Science at <a
+                            href="https://www.massey.ac.nz" target="_blank">Massey University</a> (Nov. 2024).
+                    <br>
+                    <br>
+                    My passion is building interesting and reliable solutions for the web - here is a selection of some of my favourite projects!
+                </p>
+            </div>
+        </section>
+
+        <section class="shortcuts"
+            aria-description="A set of shortcut buttons, linking to each section of the site. Contains the same links as the navigation/main-menu.">
+            <button class="icon" id="shortcut-contact">
+                <img src="/assets/images/icons/mailbox-98.png" alt="Shortcut icon" class="ns np" width="32" height="32">
+                <span>Contact</span>
+            </button>
+            <button class="icon" id="shortcut-rewordo">
+                <img src="/assets/images/icons/rewordo.png" alt="Shortcut icon" class="ns np" width="32" height="32">
+                <span>Rewordo</span>
+            </button>
+            <button class="icon" id="shortcut-rocketcat">
+                <img src="/assets/images/icons/rocket-cat.png" alt="Shortcut icon" class="ns np" width="32" height="32">
+                <span>Rocket Cat</span>
+            </button>
+            <button class="icon" id="shortcut-udream">
+                <img src="/assets/images/icons/udream.png" alt="Shortcut icon" class="ns np" width="32" height="32">
+                <span>udream<wbr>.co.nz</span>
+            </button>
+            <button class="icon" id="shortcut-ieqresearch">
+                <img src="/assets/images/icons/ieqresearch.png" alt="Shortcut icon" class="ns np" width="32"
+                    height="32">
+                <span>ieqresearch<wbr>.com</span>
+            </button>
+        </section>
+
+        <section class="projects">
+
+            <section class="window ms-box flex-column" id="window-contact">
+                <div class="ms-topbar">
+                    <div class="ms-topbar-title">Contact</div>
+                    <div class="ms-controls">
+                        <button class="ms-minimise ms-box" id="window-mini-contact"
+                            aria-description="This button minimises the current window."></button>
+                        <button class="ms-maximise ms-box" id="window-maxi-contact"
+                            aria-description="This button toggles the current window between normal size, and maximised size."></button>
+                        <button class="ms-exit ms-box" id="window-exit-contact"
+                            aria-description="This button exits the current window."></button>
+                    </div>
+                </div>
+                <div class="ms-content">
+                    <h2 class="ms-header ns"><img src="/assets/images/icons/mailbox-98.png" class="header-icon ns np"
+                            alt="Header icon" class="ns np" width="32" height="32">Contact</h2>
+                    <p>
+                        You can get in touch with me by email, or by connecting with me on LinkedIn!
+                    </p>
+                    <ul>
+                        <li><a href="mailto:liam@itfitz.co.nz" class="text-link">liamthaisen@gmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/liamfitzmaurice/" target="_blank"><img
+                                    class="img-link ns" alt="LinkedIn"
+                                    src="/assets/images/icons/linkedin.svg"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="window ms-box flex-column" id="window-rewordo">
+                <div class="ms-topbar">
+                    <div class="ms-topbar-title">Side Project</div>
+                    <div class="ms-controls">
+                        <button class="ms-minimise ms-box" id="window-mini-rewordo"
+                            aria-description="This button minimises the current window."></button>
+                        <button class="ms-maximise ms-box" id="window-maxi-rewordo"
+                            aria-description="This button toggles the current window between normal size, and maximised size."></button>
+                        <button class="ms-exit ms-box" id="window-exit-rewordo"
+                            aria-description="This button exits the current window."></button>
+                    </div>
+                </div>
+                <div class="ms-content">
+                    <h2 class="ns"><img src="/assets/images/icons/rewordo.png" class="header-icon ns np"
+                        alt="Header icon" class="ns np" width="32" height="32">Rewordo</h2>
+                    <p class="tech">
+                        Node.js, GCloud, Google Chrome Extension Development
+                    </p>
+                    <p>
+                        <i><b>Rewordo</b></i> was developed as a free and easier-to-use Google Chrome extension for in-page text translation/simplification/summarisation.
+                        <br>
+                        <br>
+                        The app was also used as the basis for my Massey University Postgraduate research project titled <i><b>"Implementing Embedded Language Transformation Software to Produce Effective Text Content Analysis"</b></i>,
+                        which used gathered anonymous request and response data to train machine learning models to predict and score the relative comprehension difficulty level of given sentences.
+                        These models were then deployed in the form of a text-analysing application, and accuracy and user-rating feedback was gathered to measure task effectiveness.
+                        <br>
+                        <br>
+                        P.S. - Please feel free to get in touch if you would like to know more or chat about the research project!
+
+                    </p>
+                    <a class="external-link ms-box ms-button ns"
+                        href="https://rewordo.com/"
+                        target="_blank">Visit rewordo.com<br>(new window)</a>
+                    <div class="content-images">
+                        <div class="flex-column ns np">
+                            <img class="ms-box-flat" src="/assets/images/projects/rewordo/homepage-1.png" width="1026"
+                                height="550">
+                            <div class="caption ms-box-flat" aria-description="Image caption">rewordo.com landing page.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="window ms-box flex-column" id="window-rocketcat">
+                <div class="ms-topbar">
+                    <div class="ms-topbar-title">Side Project</div>
+                    <div class="ms-controls">
+                        <button class="ms-minimise ms-box" id="window-mini-rocketcat"
+                            aria-description="This button minimises the current window."></button>
+                        <button class="ms-maximise ms-box" id="window-maxi-rocketcat"
+                            aria-description="This button toggles the current window between normal size, and maximised size."></button>
+                        <button class="ms-exit ms-box" id="window-exit-rocketcat"
+                            aria-description="This button exits the current window."></button>
+                    </div>
+                </div>
+                <div class="ms-content">
+                    <h2 class="ns"><img src="/assets/images/icons/rocket-cat.png" class="header-icon ns np"
+                            alt="Header icon" class="ns np" width="32" height="32">
+                        Rocket Cat
+                    </h2>
+                    <p class="tech">
+                        Javascript, HTML5 Canvas, CSS
+                    </p>
+                    <p>
+                        <b>Rocket Cat</b> is a vanilla Javascript HTML5 Canvas game.
+                        <br>
+                        <br>
+                        Aiming to build a "simple-yet-difficult" game, Rocket Cat uses a single user input (space bar or
+                        click for computer, screen touch for mobile) combined with timing control to toggle between
+                        walking, jumping, flying, and falling.
+                        <br>
+                        This creates a "Flappy Bird"-esque gameplay simplicity, and increases difficulty with
+                        (initially) non-intuitive user control.
+                        <br>
+                        <br>
+                        (Note: Highscores are disabled for this website's game instance.)
+                    </p>
+                    <a class="external-link ms-box ms-button ns" href="/rocket-cat" target="_blank">Play Rocket Cat<br>(new window)</a>
+
+                    <div class="content-images">
+                        <div class="flex-column ns np">
+                            <img class="ms-box-flat" src="/assets/images/projects/rocketcat/rocketcat-1.jpg"
+                                width="1000" height="1000">
+                            <div class="caption ms-box-flat" aria-description="Image caption">You're a cat. In a space suit.
+                                With a rocket. On the moon. Dodging asteroids!</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="window ms-box flex-column" id="window-udream">
+                <div class="ms-topbar">
+                    <div class="ms-topbar-title">ITfitz Project</div>
+                    <div class="ms-controls">
+                        <button class="ms-minimise ms-box" id="window-mini-udream"
+                            aria-description="This button minimises the current window."></button>
+                        <button class="ms-maximise ms-box" id="window-maxi-udream"
+                            aria-description="This button toggles the current window between normal size, and maximised size."></button>
+                        <button class="ms-exit ms-box" id="window-exit-udream"
+                            aria-description="This button exits the current window."></button>
+                    </div>
+                </div>
+                <div class="ms-content">
+                    <h2 class="ns"><img src="/assets/images/icons/udream.png" class="header-icon ns np"
+                            alt="Header icon" class="ns np" width="32" height="32">
+                        udream<wbr>.co.nz
+                    </h2>
+
+                    <p class="tech">
+                        Node.js, Javascript, HTML, LESS, Eleventy
+                    </p>
+
+                    <p>
+                        <i><b>udream.co.nz</b></i> is a marketing/digital presence website built for UDream Surveying
+                        Builders Limited, based out of Henderson, Auckland.
+                    </p>
+
+                    <a class="external-link ms-box ms-button ns" href="https://udream.co.nz/" target="_blank">Visit udream.co.nz<br>(new window)</a>
+
+                    <div class="content-images">
+                        <div class="flex-column ns np">
+                            <img class="ms-box-flat" src="/assets/images/projects/udream/homepage-1.jpg" width="1000"
+                                height="1000">
+                            <div class="caption ms-box-flat" aria-description="Image caption">udream.co.nz Home Page.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="window ms-box flex-column" id="window-ieqresearch">
+                <div class="ms-topbar">
+                    <div class="ms-topbar-title">ITfitz Project</div>
+                    <div class="ms-controls">
+                        <button class="ms-minimise ms-box" id="window-mini-ieqresearch"
+                            aria-description="This button minimises the current window."></button>
+                        <button class="ms-maximise ms-box" id="window-maxi-ieqresearch"
+                            aria-description="This button toggles the current window between normal size, and maximised size."></button>
+                        <button class="ms-exit ms-box" id="window-exit-ieqresearch"
+                            aria-description="This button exits the current window."></button>
+                    </div>
+                </div>
+                <div class="ms-content">
+                    <h2 class="ns"><img src="/assets/images/icons/ieqresearch.png" class="header-icon ns np"
+                            alt="Header icon" class="ns np" width="32" height="32">
+                        ieqresearch<wbr>.com
+                    </h2>
+
+                    <p class="tech">
+                        PHP, MySQL, HTML, CSS, Javascript
+                    </p>
+
+                    <p>
+                        <i><b>ieqresearch.com</b></i> is a web app prototype developed for Dr. Eziaku Rasheed & Massey
+                        University.
+                        <br>
+                        <br>
+                        In response to the growing use of Indoor Environmental Quality (IEQ) measuring hardware and the
+                        acceleration of the technology's capabilities, Dr. Eziaku Rasheed identified an opportunity to
+                        further the usefulness and applicability of Tether devices (New Zealand company) to her specific
+                        field of Post Occupancy Evaluation (constructed buildings).
+                    </p>
+                    <p>
+                        Tether devices measure a range of indoor building variables, including temperature, light, and
+                        carbon dioxide, and can be configured to alert the Tether systems' users when a variable falls
+                        outside of a set threshold.
+                    </p>
+                    <p>
+                        Dr. Rasheed tasked me with creating a prototype system for surveying research trial
+                        participants, to occur when Tether devices detect an environmental variable has fallen outside
+                        of a given threshold.
+                        <br>
+                        <br>
+                        Additionally, I was required to be available during the live research trial period to guarantee
+                        any uncaught bugs or other issues would be quickly resolved.
+                        I agreed, and the system and research trial were completed.
+                    </p>
+
+                    <a class="external-link ms-box ms-button ns" href="https://www.ieqresearch.com"
+                        target="_blank">Visit ieqresearch.com<br>(new window)</a>
+
+                    <div class="content-images">
+                        <div class="flex-column ns np">
+                            <img class="ms-box-flat" src="/assets/images/projects/ieqresearch/homepage-1.jpg"
+                                width="1000" height="1000">
+                            <div class="caption ms-box-flat" aria-description="Image caption">ieqresearch.com Home Page -
+                                front end used for survey setup and management (closed to the public).</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <script>
+        document.querySelector(".date").textContent = (new Date()).getFullYear();
+    </script>
+
+</body>
+
+</html>
